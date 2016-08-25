@@ -1,0 +1,14 @@
+1   Program Pascal_Source;
+2   
+3   Var
+4   	Num1, Num2, Sum: Integer;
+5   
+6   Begin
+7   	Write('Input number 1:');
+8   	Readln(Num1);
+9   	Write('Input number 2:');
+10  	Readln(Num2);
+11  	Sum := Num1 + Num2;
+12  	Writeln(Sum);
+13  	Readln;
+14  End.

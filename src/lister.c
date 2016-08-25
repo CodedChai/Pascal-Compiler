@@ -15,7 +15,7 @@ static void create_listing(){
 	char buffer[72];
 
 	source_file = fopen("..\\IO Files\\Pascal_Source.p", "r");
-	listing_file = fopen("Pascal_Source_Listing.txt", "w");
+	listing_file = fopen("..\\IO Files\\Pascal_Source_Listing.txt", "w");
 
 	int line_num = 1;
 	fgets(buffer, 72, (FILE*) source_file);
